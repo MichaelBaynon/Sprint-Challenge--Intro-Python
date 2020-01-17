@@ -43,7 +43,7 @@ class Motorcycle(GroundVehicle):
 
 #base class FlightVehicle
 
-class FlightVehicle():
+class FlightVehicle(Vehicle):
     def __init__(self):
         pass
 
@@ -56,7 +56,7 @@ class Airplane(FlightVehicle):
 
 #base class Starship
 
-class Starship():
+class Starship(FlightVehicle):
     def __init__(self):
         pass
 
